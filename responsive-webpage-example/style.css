@@ -2,6 +2,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.25rem;
     font-weight: 300;
+    line-height: 1.6;
 }
 
 img {
@@ -37,7 +38,7 @@ header {
 
 footer {
     background: #143774;
-    color: white;
+    color: rgba(255, 255, 255, 0.65);
     text-align: center;
     padding: 3em 0;
 }
@@ -72,7 +73,7 @@ h3 {
 
 h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.67rem;
 }
 
 a {
@@ -83,7 +84,6 @@ a {
 a:hover,
 a:focus {
     color: #143774;
-    text-decoration: underline;
 }
 
 strong {
@@ -94,9 +94,11 @@ strong {
 .subtitle {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 700;
     color: #1792d2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .article-title {
@@ -113,6 +115,8 @@ strong {
     color: #1792d2;
     text-decoration: none;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .article-read-more:hover,
@@ -163,12 +167,14 @@ nav ul {
     list-style: none;
     padding: 0;
     justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 nav a {
     color: #707070;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
+    font-size: .81rem;
     text-decoration: none;
     padding: .25em 0;
 }
@@ -259,6 +265,7 @@ nav a:focus {
     border: 12px solid lightgrey;
     margin-bottom: 2em;
     padding: 1em;
+    line-height: 1.3;
 }
 
 .widget-body {
